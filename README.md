@@ -1,4 +1,5 @@
 # Fetch MCP Server
+[![smithery badge](https://smithery.ai/badge/@goswamig/fetch-mcp)](https://smithery.ai/server/@goswamig/fetch-mcp)
 
 ![fetch mcp logo](logo.jpg)
 
@@ -45,6 +46,14 @@ This server does not provide any persistent resources. It's designed to fetch an
 1. Clone the repository
 2. Install dependencies: `npm install`
 3. Build the server: `npm run build`
+
+### Installing via Smithery
+
+To install fetch-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@goswamig/fetch-mcp):
+
+```bash
+npx -y @smithery/cli install @goswamig/fetch-mcp --client claude
+```
 
 ### Usage
 
